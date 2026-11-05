@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Intendant — Politique de confidentialité</title>
+<style>
+  :root { --accent: #2ECC8F; --text: #1a1f24; --muted: #5b6570; --line: #e6e9ec; --bg: #ffffff; }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "Noto Sans", sans-serif; color: var(--text); background: #f5f6f8; line-height: 1.75; font-size: 16px; }
+  header { text-align: center; padding: 40px 20px 28px; background: var(--bg); border-bottom: 1px solid var(--line); }
+  header h1 { margin: 0; font-size: 24px; font-weight: 700; }
+  header .sub { color: var(--muted); margin-top: 8px; font-size: 14px; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 20px 16px 64px; }
+  .card { background: var(--bg); border: 1px solid var(--line); border-radius: 14px; padding: 24px 22px; margin-top: 18px; }
+  .card h2 { font-size: 18px; margin: 0 0 12px; color: var(--accent); }
+  .card h3 { font-size: 15.5px; margin: 18px 0 6px; }
+  .card p, .card li { margin: 8px 0; }
+  ul { padding-left: 22px; margin: 8px 0; }
+  .muted { color: var(--muted); }
+  .date { text-align: center; color: var(--muted); font-size: 13px; margin-top: 32px; }
+  a { color: var(--accent); }
+  strong { font-weight: 600; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Intendant — Politique de confidentialité</h1>
+  <div class="sub">Date d'entrée en vigueur : 1<sup>er</sup> octobre 2026</div>
+</header>
+
+<div class="wrap">
+
+  <div class="card">
+    <h2>Aperçu</h2>
+    <p>Intendant est une application de comptabilité personnelle minimaliste et <strong>100 % hors ligne</strong>. Notre promesse est simple : vos données financières restent sur votre appareil. La présente politique de confidentialité explique le peu de données que traite l'application et la manière dont elle le fait.</p>
+    <p>La comptabilité, les données et les rappels fonctionnent <strong>100 % hors ligne</strong>. L'application ne se connecte au réseau qu'au moment où vous achetez ou restaurez « Intendant Pro » via StoreKit&nbsp;2 d'Apple.</p>
+  </div>
+
+  <div class="card">
+    <h2>Informations que nous ne collectons pas</h2>
+    <p>Intendant ne collecte, ne transmet et ne stocke aucune de vos données personnelles sur un serveur. Plus précisément :</p>
+    <ul>
+      <li>Aucun système de compte ni d'inscription.</li>
+      <li>Aucun identifiant d'appareil ni identifiant publicitaire.</li>
+      <li>Aucun SDK d'analyse, aucun SDK publicitaire et aucun SDK réseau tiers.</li>
+      <li>Aucun serveur dorsal ni base de données dans le cloud.</li>
+      <li>Aucune collecte de contacts, de localisation ou de données de navigation.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Données que vous saisissez (stockées localement)</h2>
+    <p>Les seules données conservées par l'application sont celles que vous saisissez vous-même : transactions, catégories, comptes, étiquettes, budgets, factures récurrentes, modèles rapides ainsi que les photos de reçus ou de pièces jointes. Toutes ces données sont stockées <strong>exclusivement</strong> dans le bac à sable local de l'application (SwiftData) sur votre appareil et ne quittent jamais votre appareil durant le fonctionnement de l'application.</p>
+  </div>
+
+  <div class="card">
+    <h2>Stockage de vos données</h2>
+    <ul>
+      <li><strong>Sur l'appareil :</strong> les données sont stockées localement avec SwiftData dans le bac à sable de l'application.</li>
+      <li><strong>Aucune synchronisation cloud :</strong> l'application n'effectue aucune synchronisation dans le cloud.</li>
+      <li><strong>Sauvegardes de l'appareil :</strong> si vous activez la sauvegarde iCloud ou une sauvegarde sur ordinateur, les données de l'application peuvent être incluses dans cette sauvegarde au niveau du système. Cela est entièrement contrôlé par vous dans les réglages iOS, et non par l'application.</li>
+      <li><strong>Sauvegarde automatique locale (Pro) :</strong> des instantanés quotidiens sont conservés dans le bac à sable de l'application (les 7 derniers par défaut). Ils sont également stockés uniquement en local.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Autorisations demandées et leur objet</h2>
+    <ul>
+      <li><strong>Microphone et reconnaissance vocale :</strong> uniquement pour la saisie vocale. La voix est transcrite sur l'appareil (SFSpeechRecognizer d'Apple) et n'est pas envoyée en ligne. En cas de refus, la saisie au clavier fonctionne toujours.</li>
+      <li><strong>Caméra / Photos :</strong> uniquement pour joindre des reçus ou des factures ; les photos sont stockées localement. En cas de refus, les pièces jointes restent facultatives et tout le reste fonctionne.</li>
+      <li><strong>Notifications :</strong> uniquement pour des rappels locaux (dépassement de budget, échéance de facture récurrente, rappel quotidien). Ce sont des notifications locales planifiées sur votre appareil — aucun envoi depuis un serveur. En cas de refus, les rappels dans l'application restent actifs.</li>
+    </ul>
+    <p>Chaque autorisation n'est demandée qu'à la première utilisation de la fonction concernée, avec une explication. Refuser une autorisation ne limite que cette fonction et ne bloque jamais la comptabilité de base.</p>
+  </div>
+
+  <div class="card">
+    <h2>La seule activité réseau : achats et restauration</h2>
+    <p>La seule connexion réseau de l'application sert à acheter ou restaurer « Intendant Pro » via StoreKit&nbsp;2 d'Apple. Le traitement des paiements, les transactions et les reçus sont entièrement gérés par Apple. Intendant ne voit, ne reçoit et ne stocke jamais vos informations de paiement, vos coordonnées bancaires ou votre adresse de facturation. Après un achat, le droit est vérifié localement sur votre appareil et fonctionne hors ligne.</p>
+  </div>
+
+  <div class="card">
+    <h2>Conservation et suppression des données</h2>
+    <ul>
+      <li>Vos données restent sur votre appareil jusqu'à ce que vous les supprimiez.</li>
+      <li>Les entrées supprimées sont déplacées vers une corbeille et conservées pendant <strong>30 jours</strong>, après quoi elles sont définitivement effacées. Vous pouvez les restaurer ou les supprimer définitivement à tout moment.</li>
+      <li>« Tout effacer » supprime immédiatement et définitivement les données locales.</li>
+      <li>La désinstallation de l'application supprime l'application ainsi que les données de son bac à sable.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Vos droits</h2>
+    <p>Vous avez le contrôle total de vos données : vous pouvez les exporter (JSON/CSV), supprimer des entrées individuelles ou tout effacer à tout moment. Comme nous ne conservons aucune copie de vos données sur un serveur, il n'y a rien à nous demander — vos données vous appartiennent et restent avec vous.</p>
+  </div>
+
+  <div class="card">
+    <h2>Confidentialité des enfants</h2>
+    <p>Intendant ne s'adresse pas aux enfants de moins de 13 ans (ou l'âge applicable dans votre région) et nous ne collectons pas sciemment de données personnelles auprès d'enfants. L'application ne collectant aucune donnée personnelle, de telles données n'existent pas.</p>
+  </div>
+
+  <div class="card">
+    <h2>Modifications de la présente politique</h2>
+    <p>Nous pouvons mettre à jour la présente politique de confidentialité de temps à autre. Les modifications prennent effet dès leur publication ; la « date d'entrée en vigueur » en haut de page reflète la dernière version. Nous vous invitons à la consulter régulièrement.</p>
+  </div>
+
+  <div class="card">
+    <h2>Nous contacter</h2>
+    <p>Pour toute question concernant cette politique ou votre vie privée, contactez-nous à : <a href="mailto:selfiearts@163.com">selfiearts@163.com</a></p>
+  </div>
+
+  <div class="date">© 2026 Intendant · Dernière mise à jour : 1<sup>er</sup> octobre 2026</div>
+</div>
+</body>
+</html>

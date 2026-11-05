@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>執事 — プライバシーポリシー</title>
+<style>
+  :root { --accent: #2ECC8F; --text: #1a1f24; --muted: #5b6570; --line: #e6e9ec; --bg: #ffffff; }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif; color: var(--text); background: #f5f6f8; line-height: 1.9; font-size: 16px; }
+  header { text-align: center; padding: 40px 20px 28px; background: var(--bg); border-bottom: 1px solid var(--line); }
+  header h1 { margin: 0; font-size: 24px; font-weight: 700; }
+  header .sub { color: var(--muted); margin-top: 8px; font-size: 14px; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 20px 16px 64px; }
+  .card { background: var(--bg); border: 1px solid var(--line); border-radius: 14px; padding: 24px 22px; margin-top: 18px; }
+  .card h2 { font-size: 18px; margin: 0 0 12px; color: var(--accent); }
+  .card h3 { font-size: 15.5px; margin: 18px 0 6px; }
+  .card p, .card li { margin: 8px 0; }
+  ul { padding-left: 22px; margin: 8px 0; }
+  .muted { color: var(--muted); }
+  .date { text-align: center; color: var(--muted); font-size: 13px; margin-top: 32px; }
+  a { color: var(--accent); }
+  strong { font-weight: 600; }
+</style>
+</head>
+<body>
+<header>
+  <h1>執事 — プライバシーポリシー</h1>
+  <div class="sub">発効日：2026年10月1日</div>
+</header>
+
+<div class="wrap">
+
+  <div class="card">
+    <h2>概要</h2>
+    <p>執事は、シンプルで<strong>完全オフライン</strong>の個人向け家計簿アプリです。私たちの約束はシンプルです。あなたの家計データは、常にあなたの端末の中にのみ存在します。本ポリシーでは、本アプリが扱うわずかなデータとその取り扱いについて説明します。</p>
+    <p>家計簿の記録、データ、リマインダーは <strong>100% オフライン</strong>で動作します。アプリがネットワークに接続する唯一のタイミングは、Apple の StoreKit&nbsp;2 を通じて「執事 Pro」を購入または復元するときだけです。</p>
+  </div>
+
+  <div class="card">
+    <h2>収集しない情報</h2>
+    <p>執事は、いかなるサーバーにもあなたの個人情報を収集・送信・保存しません。具体的には次のとおりです。</p>
+    <ul>
+      <li>アカウントやログインの仕組みはありません。</li>
+      <li>端末識別子や広告識別子は使用しません。</li>
+      <li>統計 SDK、広告 SDK、サードパーティ製ネットワーク SDK は一切使用しません。</li>
+      <li>バックエンドサーバーやクラウドデータベースはありません。</li>
+      <li>連絡先、位置情報、閲覧履歴などのデータは収集しません。</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>入力していただくデータ（端末内のみ）</h2>
+    <p>アプリが保持する唯一のデータは、あなたが入力した内容です。取引（家計簿の記録）、カテゴリ、口座、タグ、予算、定期支払い、クイックテンプレート、領収書・添付の写真などが該当します。これらはすべて、お使いの端末上のアプリのサンドボックス（SwiftData）に<strong>のみ</strong>保存され、アプリの動作中に端末の外へ出ることはありません。</p>
+  </div>
+
+  <div class="card">
+    <h2>データの保存方法</h2>
+    <ul>
+      <li><strong>端末内保存：</strong>データは SwiftData を用いてアプリのサンドボックス内に保存されます。</li>
+      <li><strong>クラウド同期なし：</strong>アプリはいかなるクラウド同期も行いません。</li>
+      <li><strong>端末のバックアップ：</strong>iCloud バックアップやコンピュータへのバックアップを有効にしている場合、アプリのデータがシステムレベルのバックアップに含まれることがあります。これはアプリではなく、iOS の設定でお客様ご自身が管理するものです。</li>
+      <li><strong>ローカル自動バックアップ（Pro）：</strong>毎日のスナップショットをアプリのサンドボックス内に保存します（既定では直近 7 件）。こちらも端末内のみに保存されます。</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>お願いする権限とその目的</h2>
+    <ul>
+      <li><strong>マイクと音声認識：</strong>音声入力のためだけに使用します。音声は端末上で文字起こしされ（Apple SFSpeechRecognizer）、アップロードされません。許可しなかった場合でも、テキスト入力は通常どおり利用できます。</li>
+      <li><strong>カメラ／写真：</strong>領収書や明細の添付のためだけに使用し、写真は端末内に保存されます。許可しなかった場合でも添付機能は任意のため、それ以外の機能はすべて利用できます。</li>
+      <li><strong>通知：</strong>ローカルリマインダー（予算超過、定期支払いの期限、毎日の記録の促し）のためだけに使用します。これらは端末上でスケジュールされるローカル通知であり、サーバープッシュはありません。許可しなかった場合でも、アプリ内のリマインダーは機能します。</li>
+    </ul>
+    <p>すべての権限は、その機能を初めて使用するときにのみ、目的の説明とともにお願いします。権限を拒否しても該当機能のみが制限され、基本的な家計簿機能が妨げられることはありません。</p>
+  </div>
+
+  <div class="card">
+    <h2>唯一のネットワーク通信：購入と復元</h2>
+    <p>アプリの唯一のネットワーク接続は、Apple の StoreKit&nbsp;2 を通じて「執事 Pro」を購入または復元するためのものです。決済処理、取引、レシートはすべて Apple が処理します。執事があなたの支払い情報、クレジットカード情報、請求先住所を参照・受信・保存することはありません。購入後は、その権利が端末上で検証され、オフラインでもご利用いただけます。</p>
+  </div>
+
+  <div class="card">
+    <h2>データの保持と削除</h2>
+    <ul>
+      <li>あなたのデータは、ご自身で削除するまで端末上に保持されます。</li>
+      <li>削除した記録はゴミ箱に移動され、<strong>30 日間</strong>保持された後に完全に消去されます。いつでも復元または完全削除できます。</li>
+      <li>「すべて消去」を行うと、端末内のデータは直ちに完全に消去されます。</li>
+      <li>アプリをアンインストールすると、サンドボックス内のデータもあわせて削除されます。</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>お客様の権利</h2>
+    <p>あなたはご自身のデータを完全に管理できます。いつでもデータのエクスポート（JSON/CSV）、個別の記録の削除、全データの消去が可能です。私たちはいかなるサーバーにもあなたのデータのコピーを保持していないため、私たちにデータを請求していただく必要はありません。あなたのデータはあなたのものであり、常にあなたの手元にあります。</p>
+  </div>
+
+  <div class="card">
+    <h2>お子様のプライバシー</h2>
+    <p>執事は 13 歳未満（またはお住まいの地域で適用される年齢）のお子様を対象としておらず、お子様の個人情報を意図的に収集することはありません。本アプリは個人情報を一切収集しないため、そのようなデータ自体が存在しません。</p>
+  </div>
+
+  <div class="card">
+    <h2>本ポリシーの変更</h2>
+    <p>私たちは本プライバシーポリシーを随時更新することがあります。変更は掲載された時点で有効となり、ページ上部の「発効日」が最新版を示します。定期的にご確認ください。</p>
+  </div>
+
+  <div class="card">
+    <h2>お問い合わせ</h2>
+    <p>本ポリシーやプライバシーについてご質問がある場合は、こちらまでご連絡ください：<a href="mailto:selfiearts@163.com">selfiearts@163.com</a></p>
+  </div>
+
+  <div class="date">© 2026 執事 · 最終更新：2026年10月1日</div>
+</div>
+</body>
+</html>

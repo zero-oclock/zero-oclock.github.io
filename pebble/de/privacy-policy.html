@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Verwalter — Datenschutzerklärung</title>
+<style>
+  :root { --accent: #2ECC8F; --text: #1a1f24; --muted: #5b6570; --line: #e6e9ec; --bg: #ffffff; }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "Noto Sans", sans-serif; color: var(--text); background: #f5f6f8; line-height: 1.75; font-size: 16px; }
+  header { text-align: center; padding: 40px 20px 28px; background: var(--bg); border-bottom: 1px solid var(--line); }
+  header h1 { margin: 0; font-size: 24px; font-weight: 700; }
+  header .sub { color: var(--muted); margin-top: 8px; font-size: 14px; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 20px 16px 64px; }
+  .card { background: var(--bg); border: 1px solid var(--line); border-radius: 14px; padding: 24px 22px; margin-top: 18px; }
+  .card h2 { font-size: 18px; margin: 0 0 12px; color: var(--accent); }
+  .card h3 { font-size: 15.5px; margin: 18px 0 6px; }
+  .card p, .card li { margin: 8px 0; }
+  ul { padding-left: 22px; margin: 8px 0; }
+  .muted { color: var(--muted); }
+  .date { text-align: center; color: var(--muted); font-size: 13px; margin-top: 32px; }
+  a { color: var(--accent); }
+  strong { font-weight: 600; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Verwalter — Datenschutzerklärung</h1>
+  <div class="sub">Stand: 1. Oktober 2026</div>
+</header>
+
+<div class="wrap">
+
+  <div class="card">
+    <h2>Überblick</h2>
+    <p>Verwalter ist eine minimalistische, <strong>vollständig offline</strong> arbeitende persönliche Haushaltsbuch-App. Unser zentrales Versprechen ist einfach: Deine Finanzdaten bleiben auf deinem Gerät. Diese Datenschutzerklärung erläutert, welche – wenigen – Daten die App verarbeitet und wie.</p>
+    <p>Buchführung, Daten und Erinnerungen funktionieren <strong>zu 100 % offline</strong>. Die App stellt nur dann eine Netzwerkverbindung her, wenn du „Verwalter Pro“ über Apples StoreKit&nbsp;2 kaufst oder wiederherstellst.</p>
+  </div>
+
+  <div class="card">
+    <h2>Informationen, die wir nicht erheben</h2>
+    <p>Verwalter erhebt, überträgt oder speichert deine personenbezogenen Daten auf keinem Server. Im Einzelnen:</p>
+    <ul>
+      <li>Kein Konto- oder Anmeldesystem.</li>
+      <li>Keine Gerätekennungen und keine Werbekennungen.</li>
+      <li>Kein Analyse-SDK, kein Werbe-SDK und kein Netzwerk-SDK von Drittanbietern.</li>
+      <li>Kein Backend-Server und keine Cloud-Datenbank.</li>
+      <li>Keine Erhebung von Kontakten, Standort- oder Browserdaten.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Von dir eingegebene Daten (nur lokal gespeichert)</h2>
+    <p>Die einzigen Daten, die die App speichert, sind die von dir eingegebenen Inhalte: Transaktionen, Kategorien, Konten, Tags, Budgets, wiederkehrende Rechnungen, Schnellvorlagen sowie Beleg-/Anhangsfotos. All diese Daten werden <strong>ausschließlich</strong> in der lokalen Sandbox der App (SwiftData) auf deinem Gerät gespeichert und verlassen dein Gerät im laufenden Betrieb nicht.</p>
+  </div>
+
+  <div class="card">
+    <h2>Wie deine Daten gespeichert werden</h2>
+    <ul>
+      <li><strong>Auf dem Gerät:</strong> Die Daten werden mit SwiftData in der App-Sandbox gespeichert.</li>
+      <li><strong>Keine Cloud-Synchronisierung:</strong> Die App führt keinerlei Cloud-Synchronisierung durch.</li>
+      <li><strong>Geräte-Backups:</strong> Wenn du das iCloud-Backup oder ein Computer-Backup aktivierst, können die App-Daten in diesem systemweiten Backup enthalten sein. Das steuerst du vollständig selbst über deine iOS-Einstellungen – nicht über die App.</li>
+      <li><strong>Lokales automatisches Backup (Pro):</strong> Tägliche Snapshots werden in der App-Sandbox aufbewahrt (standardmäßig die letzten 7). Auch diese werden nur lokal gespeichert.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Berechtigungen, die wir anfragen – und warum</h2>
+    <ul>
+      <li><strong>Mikrofon &amp; Spracherkennung:</strong> Nur für die Spracheingabe. Sprache wird auf dem Gerät transkribiert (Apple SFSpeechRecognizer) und nicht hochgeladen. Wenn du ablehnst, funktioniert die Texteingabe weiterhin normal.</li>
+      <li><strong>Kamera / Fotos:</strong> Nur zum Anhängen von Belegen oder Rechnungen; Fotos werden lokal gespeichert. Wenn du ablehnst, bleibt das Anhängen optional und alles andere funktioniert weiterhin.</li>
+      <li><strong>Mitteilungen:</strong> Nur für lokale Erinnerungen (Budgetüberschreitung, fällige wiederkehrende Rechnung, tägliche Erinnerung). Dies sind lokale Benachrichtigungen auf deinem Gerät – es gibt keinen Server-Push. Wenn du ablehnst, funktionieren die In-App-Erinnerungen weiterhin.</li>
+    </ul>
+    <p>Jede Berechtigung wird erst bei der ersten Nutzung der jeweiligen Funktion mit einer Erklärung angefragt. Eine Ablehnung schränkt nur diese Funktion ein und blockiert niemals die grundlegende Buchführung.</p>
+  </div>
+
+  <div class="card">
+    <h2>Die einzige Netzwerkaktivität: Käufe und Wiederherstellung</h2>
+    <p>Die einzige Netzwerkverbindung der App dient dem Kauf oder der Wiederherstellung von „Verwalter Pro“ über Apples StoreKit&nbsp;2. Zahlungsabwicklung, Transaktionen und Belege werden vollständig von Apple verarbeitet. Verwalter sieht, empfängt oder speichert niemals deine Zahlungsinformationen, Kreditkartendaten oder Rechnungsadresse. Nach einem Kauf wird die Berechtigung lokal auf deinem Gerät verifiziert und funktioniert offline.</p>
+  </div>
+
+  <div class="card">
+    <h2>Datenspeicherung und -löschung</h2>
+    <ul>
+      <li>Deine Daten bleiben auf deinem Gerät, bis du sie löschst.</li>
+      <li>Gelöschte Einträge werden in einen Papierkorb verschoben und <strong>30 Tage</strong> aufbewahrt, danach dauerhaft gelöscht. Du kannst sie jederzeit wiederherstellen oder endgültig löschen.</li>
+      <li>„Alle Daten löschen“ löscht die lokalen Daten sofort und dauerhaft.</li>
+      <li>Das Deinstallieren der App entfernt die App samt ihren Sandbox-Daten.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Deine Rechte</h2>
+    <p>Du hast die volle Kontrolle über deine Daten: Du kannst sie jederzeit exportieren (JSON/CSV), einzelne Einträge löschen oder alles leeren. Da wir keine Kopie deiner Daten auf einem Server speichern, gibt es bei uns nichts anzufordern – deine Daten gehören dir und bleiben bei dir.</p>
+  </div>
+
+  <div class="card">
+    <h2>Datenschutz von Kindern</h2>
+    <p>Verwalter richtet sich nicht an Kinder unter 13 Jahren (bzw. dem in deiner Region geltenden Alter) und wir erheben wissentlich keine personenbezogenen Daten von Kindern. Da die App keinerlei personenbezogene Daten erhebt, gibt es auch keine derartigen Daten.</p>
+  </div>
+
+  <div class="card">
+    <h2>Änderungen dieser Erklärung</h2>
+    <p>Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Änderungen treten mit der Veröffentlichung in Kraft; das Datum oben gibt den aktuellen Stand wieder. Wir empfehlen, sie regelmäßig zu prüfen.</p>
+  </div>
+
+  <div class="card">
+    <h2>Kontakt</h2>
+    <p>Bei Fragen zu dieser Erklärung oder zu deiner Privatsphäre kontaktiere uns unter: <a href="mailto:selfiearts@163.com">selfiearts@163.com</a></p>
+  </div>
+
+  <div class="date">© 2026 Verwalter · Zuletzt aktualisiert: 1. Oktober 2026</div>
+</div>
+</body>
+</html>

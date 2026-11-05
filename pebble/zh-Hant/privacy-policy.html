@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>小管家 — 隱私政策</title>
+<style>
+  :root { --accent: #2ECC8F; --text: #1a1f24; --muted: #5b6570; --line: #e6e9ec; --bg: #ffffff; }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang TC", "Hiragino Sans", "Noto Sans TC", sans-serif; color: var(--text); background: #f5f6f8; line-height: 1.8; font-size: 16px; }
+  header { text-align: center; padding: 40px 20px 28px; background: var(--bg); border-bottom: 1px solid var(--line); }
+  header h1 { margin: 0; font-size: 24px; font-weight: 700; }
+  header .sub { color: var(--muted); margin-top: 8px; font-size: 14px; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 20px 16px 64px; }
+  .card { background: var(--bg); border: 1px solid var(--line); border-radius: 14px; padding: 24px 22px; margin-top: 18px; }
+  .card h2 { font-size: 18px; margin: 0 0 12px; color: var(--accent); }
+  .card h3 { font-size: 15.5px; margin: 18px 0 6px; }
+  .card p, .card li { margin: 8px 0; }
+  ul { padding-left: 22px; margin: 8px 0; }
+  .muted { color: var(--muted); }
+  .date { text-align: center; color: var(--muted); font-size: 13px; margin-top: 32px; }
+  a { color: var(--accent); }
+  strong { font-weight: 600; }
+</style>
+</head>
+<body>
+<header>
+  <h1>小管家 — 隱私政策</h1>
+  <div class="sub">生效日期：2026年10月1日</div>
+</header>
+
+<div class="wrap">
+
+  <div class="card">
+    <h2>概述</h2>
+    <p>小管家是一款極簡、<strong>純離線</strong>的本機記帳應用。我們的核心承諾很簡單：你的財務資料永遠留在你自己的裝置上。本隱私政策說明本應用處理的資料有多少、以及如何處理。</p>
+    <p>記帳、資料與提醒功能 <strong>100% 離線</strong>運作。應用唯一連網的時刻，是在你透過 Apple 的 StoreKit&nbsp;2 購買或恢復「小管家 Pro」時。</p>
+  </div>
+
+  <div class="card">
+    <h2>我們不收集的資訊</h2>
+    <p>小管家不會在任何伺服器上收集、傳輸或儲存你的個人資訊。具體而言：</p>
+    <ul>
+      <li>無帳號體系、無需註冊登入。</li>
+      <li>無裝置識別碼、無廣告識別碼。</li>
+      <li>無統計 SDK、無廣告 SDK、無任何第三方網路 SDK。</li>
+      <li>無後端伺服器、無雲端資料庫。</li>
+      <li>不收集通訊錄、位置、瀏覽等資料。</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>你輸入的資料（僅存本機）</h2>
+    <p>應用持有的唯一資料，是你主動輸入的內容：帳目流水、分類、帳戶、標籤、預算、週期帳單、一鍵複記範本，以及發票／票據附件照片。所有這些資料都<strong>僅</strong>儲存在你裝置上應用沙盒（SwiftData）中，在應用運行過程中不會離開你的裝置。</p>
+  </div>
+
+  <div class="card">
+    <h2>資料如何儲存</h2>
+    <ul>
+      <li><strong>本機儲存：</strong>資料透過 SwiftData 儲存於應用沙盒。</li>
+      <li><strong>無雲端同步：</strong>應用不做任何形式的雲端同步。</li>
+      <li><strong>裝置備份：</strong>若你開啟 iCloud 備份或電腦備份，應用資料可能包含在系統級備份中。這完全由你在 iOS 設定中自行控制，與 App 無關。</li>
+      <li><strong>本機自動備份（Pro）：</strong>每日快照保存在應用沙盒內（預設保留最近 7 份），同樣僅存本機。</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>我們申請的權限及用途</h2>
+    <ul>
+      <li><strong>麥克風與語音辨識：</strong>僅用於語音記帳。語音在裝置本機轉寫（Apple SFSpeechRecognizer），不上傳。若你拒絕，文字輸入不受影響。</li>
+      <li><strong>相機／相簿：</strong>僅用於加入發票或票據附件，照片本機儲存。若你拒絕，附件功能為可選項，其餘功能不受影響。</li>
+      <li><strong>通知：</strong>僅用於本機提醒（超支提醒、週期帳單到期提醒、每日督促提醒）。這些是在你裝置上排定的本機通知，無伺服器推播。若你拒絕，應用內提醒仍有效。</li>
+    </ul>
+    <p>所有權限均在你首次使用相關功能時才申請，並附用途說明。拒絕某權限只影響對應功能，絕不阻斷核心記帳。</p>
+  </div>
+
+  <div class="card">
+    <h2>唯一的連網行為：購買與恢復</h2>
+    <p>應用唯一的網路連線，是用於透過 Apple StoreKit&nbsp;2 購買或恢復「小管家 Pro」。付款處理、交易與收據均由 Apple 完全處理。小管家不會看到、接收或儲存你的付款資訊、銀行卡資訊或帳單地址。購買完成後，權益在你裝置本機驗證，離線也可正常使用。</p>
+  </div>
+
+  <div class="card">
+    <h2>資料保留與刪除</h2>
+    <ul>
+      <li>你的資料會一直留在裝置上，直到你主動刪除。</li>
+      <li>刪除的帳目會進入資源回收筒，保留 <strong>30 天</strong>，之後被徹底清除；你可隨時恢復或徹底刪除。</li>
+      <li>「一鍵清空」會立即徹底清除本機資料。</li>
+      <li>移除 App 會連同沙盒資料一併清除。</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>你的權利</h2>
+    <p>你對自己的資料擁有完全的控制權：你可以隨時匯出資料（JSON/CSV）、刪除單筆帳目，或清空全部資料。由於我們不在任何伺服器上保存你的資料副本，你也無需向我們提出任何申請——你的資料屬於你，並始終與你在一起。</p>
+  </div>
+
+  <div class="card">
+    <h2>兒童隱私</h2>
+    <p>小管家不面向 13 歲以下（或你所在地區適用的年齡）的兒童，我們也不會在知情的情況下收集兒童的個人資訊。由於本應用完全不收集任何個人資訊，因此也不存在此類資料。</p>
+  </div>
+
+  <div class="card">
+    <h2>本政策的變更</h2>
+    <p>我們可能不時更新本隱私政策。變更自發布時生效，頁面頂部的「生效日期」即最新版本。我們建議你定期查閱。</p>
+  </div>
+
+  <div class="card">
+    <h2>聯絡我們</h2>
+    <p>如對本政策或你的隱私有任何疑問，請聯絡：<a href="mailto:selfiearts@163.com">selfiearts@163.com</a></p>
+  </div>
+
+  <div class="date">© 2026 小管家 · 最後更新：2026年10月1日</div>
+</div>
+</body>
+</html>
