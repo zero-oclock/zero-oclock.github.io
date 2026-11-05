@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>小氷鮮 — プライバシーポリシー</title>
+<style>
+  :root { --accent: #2ECC8F; --text: #1a1f24; --muted: #5b6570; --line: #e6e9ec; --bg: #ffffff; }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans", "Noto Sans", sans-serif; color: var(--text); background: #f5f6f8; line-height: 1.75; font-size: 16px; }
+  header { text-align: center; padding: 40px 20px 28px; background: var(--bg); border-bottom: 1px solid var(--line); }
+  header h1 { margin: 0; font-size: 24px; font-weight: 700; }
+  header .sub { color: var(--muted); margin-top: 8px; font-size: 14px; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 20px 16px 64px; }
+  .card { background: var(--bg); border: 1px solid var(--line); border-radius: 14px; padding: 24px 22px; margin-top: 18px; }
+  .card h2 { font-size: 18px; margin: 0 0 12px; color: var(--accent); }
+  .card h3 { font-size: 15.5px; margin: 18px 0 6px; }
+  .card p, .card li { margin: 8px 0; }
+  ul { padding-left: 22px; margin: 8px 0; }
+  .muted { color: var(--muted); }
+  .date { text-align: center; color: var(--muted); font-size: 13px; margin-top: 32px; }
+  a { color: var(--accent); }
+  strong { font-weight: 600; }
+</style>
+</head>
+<body>
+<header>
+  <h1>小氷鮮 — プライバシーポリシー</h1>
+  <div class="sub">発効日：2026年10月3日</div>
+</header>
+
+<div class="wrap">
+
+  <div class="card">
+    <h2>概要</h2>
+    <p>小氷鮮は、シンプルで<strong>オフライン優先</strong>の冷蔵庫食材管理・レシピ提案アプリです。私たちの約束はシンプルです——あなたの食材データは端末内にとどまります。本プライバシーポリシーでは、アプリが扱うごくわずかなデータとその方法について説明します。</p>
+    <p>食材の記録・管理・リマインダー・レシピ提案はすべて<strong>100% オフライン</strong>で動作します。アプリがネットワークに接続するのは、Apple の StoreKit&nbsp;2 を通じて小氷鮮 Pro を購入または復元するときだけです。</p>
+  </div>
+  <div class="card">
+    <h2>収集しない情報</h2>
+    <p>小氷鮮は、いかなるサーバーにもあなたの個人情報を収集・送信・保存しません。具体的には：</p>
+    <ul>
+      <li>アカウントやログインの仕組みはありません。</li>
+      <li>端末識別子も広告識別子も使用しません。</li>
+      <li>解析 SDK・広告 SDK・第三者のネットワーク SDK は一切含まれません。</li>
+      <li>バックエンドサーバーもクラウドデータベースもありません。</li>
+      <li>連絡先・位置情報・閲覧履歴は収集しません。</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h2>あなたが入力するデータ（端末内のみ）</h2>
+    <p>アプリが保持する唯一のデータは、あなた自身が入力したものです。食材、カテゴリ、賞味期限、消費記録、買い物リスト、お気に入りの食材、そしてカスタムレシピ（スキャンしたレシピ写真を含む）です。これらはすべて、アプリの動作の一環として端末内のローカルサンドボックス（SwiftData）に<strong>のみ</strong>保存され、端末の外に出ることはありません。</p>
+  </div>
+  <div class="card">
+    <h2>データの保存方法</h2>
+    <ul>
+      <li><strong>端末内のみ：</strong>データはアプリのサンドボックス内に SwiftData でローカル保存されます。</li>
+      <li><strong>クラウド同期なし：</strong>アプリはいかなるクラウド同期も行いません。</li>
+      <li><strong>端末のバックアップ：</strong>iCloud バックアップやコンピュータへのバックアップを有効にすると、アプリのデータがそのシステムレベルのバックアップに含まれる場合があります。これは iOS 設定を通じてあなたが完全に制御するものであり、アプリによるものではありません。</li>
+      <li><strong>いつでも持ち出せる：</strong>エクスポート／インポートは永久に無料で、いつでも自分のデータを完全に持ち出せます。</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h2>要求する権限とその目的</h2>
+    <ul>
+      <li><strong>カメラ：</strong>レシピの文字を撮影・認識してカスタムレシピとして保存するためだけに使用します。写真はローカルにのみ保存されます。</li>
+      <li><strong>マイクと音声認識：</strong>食材をひとこと音声入力するためだけに使用します。音声は端末上で文字起こしされ（Apple の SFSpeechRecognizer）、アップロードされません。</li>
+      <li><strong>通知：</strong>端末上でスケジュールされるローカルの期限切れリマインダーにのみ使用します。サーバープッシュはありません。</li>
+    </ul>
+    <p>各権限は、その機能を初めて使用するときに説明付きでのみ要求されます。権限を拒否してもその機能が制限されるだけで、基本機能の利用が妨げられることはありません。</p>
+  </div>
+  <div class="card">
+    <h2>唯一のネットワーク通信：購入と復元</h2>
+    <p>アプリの唯一のネットワーク接続は、Apple の StoreKit&nbsp;2 を通じて小氷鮮 Pro を購入または復元するためのものです。決済処理・取引・レシートはすべて Apple が処理します。小氷鮮があなたの支払い情報・クレジットカード情報・請求先住所を見たり、受け取ったり、保存したりすることはありません。購入後、権利は端末上でローカルに検証され、オフラインでも機能します。</p>
+  </div>
+  <div class="card">
+    <h2>データの保持と削除</h2>
+    <ul>
+      <li>データは、あなたが削除するまで端末に残ります。</li>
+      <li>削除した項目はすぐに取り除かれます。</li>
+      <li>「すべてのデータを消去」は、ローカルデータを直ちに完全消去します。</li>
+      <li>アプリをアンインストールすると、アプリとそのサンドボックスデータが削除されます。</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h2>あなたの権利</h2>
+    <p>あなたは自分のデータを完全に管理できます。いつでも無料でデータをエクスポート／インポートしたり、個々の項目を削除したり、すべてを一度に消去したりできます。私たちはどのサーバーにもあなたのデータのコピーを保持しないため、私たちに求めるものは何もありません——あなたのデータはあなたのものであり、常にあなたの手元にあります。</p>
+  </div>
+  <div class="card">
+    <h2>子どものプライバシー</h2>
+    <p>小氷鮮は 13 歳未満（またはお住まいの地域で適用される年齢）の子どもを対象としておらず、子どもから故意に個人情報を収集することはありません。このアプリはそもそも個人情報を一切収集しないため、収集対象となるデータ自体が存在しません。</p>
+  </div>
+  <div class="card">
+    <h2>本ポリシーの変更</h2>
+    <p>私たちは本プライバシーポリシーを随時更新することがあります。変更は掲載時点で有効となり、冒頭の「発効日」が最新版を示します。定期的な確認をおすすめします。</p>
+  </div>
+  <div class="card">
+    <h2>お問い合わせ</h2>
+    <p>本ポリシーやプライバシーについてご質問がある場合は、こちらまでお問い合わせください：<a href="mailto:selfiearts@163.com">selfiearts@163.com</a></p>
+  </div>
+
+  <div class="date">© 2026 小氷鮮 · 最終更新：2026年10月3日</div>
+</div>
+</body>
+</html>

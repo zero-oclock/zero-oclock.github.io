@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FridgeMate — Politique de confidentialité</title>
+<style>
+  :root { --accent: #2ECC8F; --text: #1a1f24; --muted: #5b6570; --line: #e6e9ec; --bg: #ffffff; }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans", "Noto Sans", sans-serif; color: var(--text); background: #f5f6f8; line-height: 1.75; font-size: 16px; }
+  header { text-align: center; padding: 40px 20px 28px; background: var(--bg); border-bottom: 1px solid var(--line); }
+  header h1 { margin: 0; font-size: 24px; font-weight: 700; }
+  header .sub { color: var(--muted); margin-top: 8px; font-size: 14px; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 20px 16px 64px; }
+  .card { background: var(--bg); border: 1px solid var(--line); border-radius: 14px; padding: 24px 22px; margin-top: 18px; }
+  .card h2 { font-size: 18px; margin: 0 0 12px; color: var(--accent); }
+  .card h3 { font-size: 15.5px; margin: 18px 0 6px; }
+  .card p, .card li { margin: 8px 0; }
+  ul { padding-left: 22px; margin: 8px 0; }
+  .muted { color: var(--muted); }
+  .date { text-align: center; color: var(--muted); font-size: 13px; margin-top: 32px; }
+  a { color: var(--accent); }
+  strong { font-weight: 600; }
+</style>
+</head>
+<body>
+<header>
+  <h1>FridgeMate — Politique de confidentialité</h1>
+  <div class="sub">Date d'entrée en vigueur: 3 octobre 2026</div>
+</header>
+
+<div class="wrap">
+
+  <div class="card">
+    <h2>Aperçu</h2>
+    <p>FridgeMate est une application minimaliste et <strong>hors ligne d'abord</strong> de gestion des aliments du réfrigérateur et de recommandation de recettes. Notre promesse essentielle est simple : vos données alimentaires restent sur votre appareil. La présente politique de confidentialité explique le peu de données que l'application traite et comment.</p>
+    <p>La saisie, la gestion, les rappels et les recommandations de recettes fonctionnent <strong>100 % hors ligne</strong>. L'application ne se connecte au réseau que lorsque vous achetez ou restaurez FridgeMate Pro via StoreKit&nbsp;2 d'Apple.</p>
+  </div>
+  <div class="card">
+    <h2>Informations que nous ne collectons pas</h2>
+    <p>FridgeMate ne collecte, ne transmet ni ne stocke vos informations personnelles sur aucun serveur. Plus précisément :</p>
+    <ul>
+      <li>Aucun système de compte ou de connexion.</li>
+      <li>Aucun identifiant d'appareil ni identifiant publicitaire.</li>
+      <li>Aucun SDK d'analyse, de publicité ni de réseau tiers.</li>
+      <li>Aucun serveur backend ni base de données cloud.</li>
+      <li>Aucune collecte de contacts, de position ou de données de navigation.</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h2>Données que vous saisissez (stockées localement)</h2>
+    <p>Les seules données que l'application conserve sont celles que vous saisissez vous-même : aliments, catégories, dates de péremption, historiques de consommation, listes de courses, aliments favoris et recettes personnalisées (y compris les photos de recettes que vous numérisez). Tout cela est stocké <strong>uniquement</strong> dans le bac à sable local (SwiftData) de l'application sur votre appareil, et ne quitte jamais votre appareil dans le cadre du fonctionnement de l'application.</p>
+  </div>
+  <div class="card">
+    <h2>Comment vos données sont stockées</h2>
+    <ul>
+      <li><strong>Sur l'appareil :</strong> les données sont stockées localement avec SwiftData dans le bac à sable de l'application.</li>
+      <li><strong>Aucune synchronisation cloud :</strong> l'application n'effectue aucune synchronisation cloud.</li>
+      <li><strong>Sauvegardes de l'appareil :</strong> si vous activez la sauvegarde iCloud ou une sauvegarde sur ordinateur, les données de l'application peuvent être incluses dans cette sauvegarde système. Celle-ci est entièrement contrôlée par vous via les réglages iOS, et non par l'application.</li>
+      <li><strong>Toujours portable :</strong> l'exportation et l'importation sont définitivement gratuites, vous pouvez donc toujours emporter vos données avec vous.</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h2>Autorisations demandées et raisons</h2>
+    <ul>
+      <li><strong>Appareil photo :</strong> utilisé uniquement pour photographier et reconnaître le texte d'une recette, afin de l'enregistrer comme recette personnalisée ; l'image n'est stockée que localement.</li>
+      <li><strong>Micro et reconnaissance vocale :</strong> utilisés uniquement pour la saisie vocale d'aliments en une phrase. La voix est transcrite sur l'appareil (SFSpeechRecognizer d'Apple) et n'est pas téléversée.</li>
+      <li><strong>Notifications :</strong> utilisées uniquement pour les rappels locaux de péremption planifiés sur votre appareil — aucun push serveur.</li>
+    </ul>
+    <p>Chaque autorisation n'est demandée qu'à la première utilisation de la fonction, avec une explication. Refuser une autorisation ne limite que cette fonction et ne bloque jamais l'usage essentiel.</p>
+  </div>
+  <div class="card">
+    <h2>La seule activité réseau : achats et restauration</h2>
+    <p>La seule connexion réseau de l'application sert à acheter ou restaurer FridgeMate Pro via StoreKit&nbsp;2 d'Apple. Le traitement des paiements, les transactions et les reçus sont entièrement gérés par Apple. FridgeMate ne voit, ne reçoit ni ne stocke jamais vos informations de paiement, les détails de votre carte bancaire ou votre adresse de facturation. Après un achat, le droit est vérifié localement sur votre appareil et fonctionne hors ligne.</p>
+  </div>
+  <div class="card">
+    <h2>Conservation et suppression des données</h2>
+    <ul>
+      <li>Vos données restent sur votre appareil jusqu'à ce que vous les supprimiez.</li>
+      <li>Les entrées supprimées sont retirées immédiatement.</li>
+      <li>« Effacer toutes les données » efface définitivement et immédiatement les données locales.</li>
+      <li>Désinstaller l'application supprime l'application et ses données de bac à sable.</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h2>Vos droits</h2>
+    <p>Vous avez le contrôle total de vos données : vous pouvez les exporter ou les importer à tout moment, gratuitement, supprimer des entrées individuelles ou tout effacer d'un coup. Comme nous ne conservons aucune copie de vos données sur un serveur, il n'y a rien à nous demander — vos données sont les vôtres et restent avec vous.</p>
+  </div>
+  <div class="card">
+    <h2>Confidentialité des enfants</h2>
+    <p>FridgeMate ne s'adresse pas aux enfants de moins de 13 ans (ou à l'âge applicable dans votre région) et nous ne collectons pas sciemment de données personnelles d'enfants. Comme l'application ne collecte aucune donnée personnelle, il n'existe aucune donnée de ce type à collecter.</p>
+  </div>
+  <div class="card">
+    <h2>Modifications de la présente politique</h2>
+    <p>Nous pouvons mettre à jour la présente politique de confidentialité de temps à autre. Les modifications prennent effet dès leur publication, et la « date d'entrée en vigueur » en haut reflète la dernière version. Nous vous encourageons à la consulter régulièrement.</p>
+  </div>
+  <div class="card">
+    <h2>Nous contacter</h2>
+    <p>Pour toute question concernant cette politique ou votre vie privée, contactez-nous à l'adresse : <a href="mailto:selfiearts@163.com">selfiearts@163.com</a></p>
+  </div>
+
+  <div class="date">© 2026 FridgeMate · Dernière mise à jour: 3 octobre 2026</div>
+</div>
+</body>
+</html>
