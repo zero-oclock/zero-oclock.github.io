@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Steward — Support</title>
+<style>
+  :root { --accent: #2ECC8F; --text: #1a1f24; --muted: #5b6570; --line: #e6e9ec; --bg: #ffffff; }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans", "Noto Sans", sans-serif; color: var(--text); background: #f5f6f8; line-height: 1.75; font-size: 16px; }
+  header { text-align: center; padding: 40px 20px 28px; background: var(--bg); border-bottom: 1px solid var(--line); }
+  header h1 { margin: 0; font-size: 24px; font-weight: 700; }
+  header .sub { color: var(--muted); margin-top: 8px; font-size: 14px; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 20px 16px 64px; }
+  .card { background: var(--bg); border: 1px solid var(--line); border-radius: 14px; padding: 24px 22px; margin-top: 18px; }
+  .card h2 { font-size: 18px; margin: 0 0 12px; color: var(--accent); }
+  .card h3 { font-size: 15.5px; margin: 18px 0 6px; }
+  .card p, .card li { margin: 8px 0; }
+  ul, ol { padding-left: 22px; margin: 8px 0; }
+  .muted { color: var(--muted); }
+  .date { text-align: center; color: var(--muted); font-size: 13px; margin-top: 32px; }
+  a { color: var(--accent); }
+  strong { font-weight: 600; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Steward — Support</h1>
+  <div class="sub">Last updated: November 5, 2026</div>
+</header>
+
+<div class="wrap">
+
+  <div class="card">
+    <h2>Contact us</h2>
+    <p>Thanks for using Steward. The most common questions are answered below. If yours is not covered, email us — we read every message.</p>
+    <p><strong>Email:</strong> <a href="mailto:selfiearts@163.com?subject=Steward%20Support">selfiearts@163.com</a></p>
+    <p class="muted">We usually reply within 1–3 business days. Steward is made by an independent developer, so we do not offer phone or live-chat support.</p>
+  </div>
+
+  <div class="card">
+    <h2>Frequently asked questions</h2>
+    <h3>1. Where is my data stored? Does it sync between devices?</h3>
+    <p>Bills, budgets, accounts and every other record you enter are stored only on this device, in the app's local database. Steward has no account and no server, so your data never leaves the device during normal use and is not shared with us. It therefore does not appear automatically on another device. If iCloud Backup is enabled on your device, the app's own files may be included in that system backup — that backup is created and managed by iOS, not by us.</p>
+    <h3>2. How do I back up my data?</h3>
+    <p>Steward keeps up to seven daily local snapshots, which you can restore from inside the app, and Pro adds export to JSON and CSV. For a copy that survives a lost or broken device, rely on your system backup (iCloud Backup or a computer backup), since it contains the app's local data. Keeping your own CSV export somewhere off the device is the safest option.</p>
+    <h3>3. I reinstalled the app or changed devices — how do I get Pro and my data back?</h3>
+    <p>Pro is tied to your Apple ID: tap <strong>Restore Purchases</strong> with the same Apple ID you bought with. Restoring Pro unlocks the features but does not bring your records back — records come from restoring the system backup to this device, or from importing a JSON/CSV export you made earlier.</p>
+    <h3>4. How do I cancel the auto-renewable subscription?</h3>
+    <ol><li>Open <strong>Settings</strong> on your iPhone or iPad.</li><li>Tap your name at the top.</li><li>Tap <strong>Subscriptions</strong>.</li><li>Select Steward, then tap <strong>Cancel Subscription</strong>.</li></ol><p class="muted">You keep Pro until the end of the paid period. Deleting the app does not cancel the subscription and does not stop billing.</p>
+    <h3>5. How do I request a refund?</h3>
+    <p>Payments are processed by Apple, and refund decisions are Apple's, not ours. Go to <a href="https://reportaproblem.apple.com/">reportaproblem.apple.com</a>, sign in with the Apple ID used for the purchase, and submit the request there.</p>
+    <h3>6. I deleted a record by mistake. Can I get it back?</h3>
+    <p>Deleted records go to the recycle bin and are kept for 30 days, after which they are permanently erased. Restore them from there if you are still inside that window. Clearing all data, on the other hand, takes effect immediately and cannot be undone.</p>
+    <h3>7. I declined a permission. How do I turn it back on?</h3>
+    <p>iOS only asks once, so after tapping “Don't Allow” the switch has to be flipped in <strong>Settings &gt; Steward</strong>. Microphone and speech recognition are used for voice entry, camera and photo library for scanning receipts, and notifications for budget and bill reminders. Each permission only affects its own feature; the rest of the app works either way.</p>
+    <h3>8. Bill and budget reminders are not arriving.</h3>
+    <p>Reminders are local notifications scheduled on your device; there is no server push. If nothing appears, check that notifications are allowed in <strong>Settings &gt; Steward &gt; Notifications</strong>, that Do Not Disturb or a Focus mode is not silencing the app, that the device date and time are correct, and that the bill actually has a due date set.</p>
+    <h3>9. A scanned receipt or a total looks wrong.</h3>
+    <p>Receipt scanning runs on-device and can misread faded print, unusual layouts or handwritten totals. Always check a scanned record before saving it. The same applies to statistics: they are only as accurate as the records behind them, so verify your figures before relying on them for financial, tax or business decisions.</p>
+  </div>
+
+  <div class="card">
+    <h2>Before you email us</h2>
+    <p>Including these details helps us solve the problem in one round:</p>
+    <ul>
+      <li>Steward version number</li>
+      <li>iOS version (Settings &gt; General &gt; About)</li>
+      <li>Device model</li>
+      <li>What you did and what you expected</li>
+      <li>A screenshot of the error or the wrong result</li>
+    </ul>
+    <p class="muted">Please crop or mask financial details, account numbers and other personal information before sending a screenshot.</p>
+  </div>
+
+  <div class="card">
+    <h2>Related links</h2>
+    <ul>
+      <li><a href="privacy-policy.html">Privacy Policy</a></li>
+      <li><a href="terms-of-service.html">Terms of Service</a></li>
+    </ul>
+    <p class="muted">Other languages: <strong>English</strong> · <a href="../zh-Hans/support.html">简体中文</a> · <a href="../zh-Hant/support.html">繁體中文</a> · <a href="../ja/support.html">日本語</a> · <a href="../ko/support.html">한국어</a> · <a href="../de/support.html">Deutsch</a> · <a href="../fr/support.html">Français</a></p>
+  </div>
+
+  <div class="date">© 2026 Steward · Last updated: November 5, 2026</div>
+</div>
+</body>
+</html>

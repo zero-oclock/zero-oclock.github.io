@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>小管家 — 技術支援</title>
+<style>
+  :root { --accent: #2ECC8F; --text: #1a1f24; --muted: #5b6570; --line: #e6e9ec; --bg: #ffffff; }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans", "Noto Sans", sans-serif; color: var(--text); background: #f5f6f8; line-height: 1.75; font-size: 16px; }
+  header { text-align: center; padding: 40px 20px 28px; background: var(--bg); border-bottom: 1px solid var(--line); }
+  header h1 { margin: 0; font-size: 24px; font-weight: 700; }
+  header .sub { color: var(--muted); margin-top: 8px; font-size: 14px; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 20px 16px 64px; }
+  .card { background: var(--bg); border: 1px solid var(--line); border-radius: 14px; padding: 24px 22px; margin-top: 18px; }
+  .card h2 { font-size: 18px; margin: 0 0 12px; color: var(--accent); }
+  .card h3 { font-size: 15.5px; margin: 18px 0 6px; }
+  .card p, .card li { margin: 8px 0; }
+  ul, ol { padding-left: 22px; margin: 8px 0; }
+  .muted { color: var(--muted); }
+  .date { text-align: center; color: var(--muted); font-size: 13px; margin-top: 32px; }
+  a { color: var(--accent); }
+  strong { font-weight: 600; }
+</style>
+</head>
+<body>
+<header>
+  <h1>小管家 — 技術支援</h1>
+  <div class="sub">最後更新：2026 年 11 月 5 日</div>
+</header>
+
+<div class="wrap">
+
+  <div class="card">
+    <h2>聯絡我們</h2>
+    <p>感謝使用小管家。下方整理了最常見的問題；若仍無法解決，歡迎寄信給我們，每一封我們都會看。</p>
+    <p><strong>電子郵件:</strong> <a href="mailto:selfiearts@163.com?subject=Steward%20Support">selfiearts@163.com</a></p>
+    <p class="muted">我們通常會在 1–3 個工作天內回覆。本 App 由個人開發者製作，暫不提供電話或線上客服。</p>
+  </div>
+
+  <div class="card">
+    <h2>常見問題</h2>
+    <h3>1. 我的資料存在哪裡？會在不同裝置間同步嗎？</h3>
+    <p>帳單、預算、帳戶以及其他所有紀錄都只儲存在這台裝置上的 App 本機資料庫。小管家沒有帳號，也沒有伺服器，正常使用時資料不會離開裝置，也不會傳給我們。因此它不會自動出現在另一台裝置上。若你的裝置開啟了 iCloud 備份，App 本身的檔案可能會包含在該系統備份中——這份備份由 iOS 建立與管理，不由我們處理。</p>
+    <h3>2. 如何備份我的資料？</h3>
+    <p>小管家會保留最近 7 天的每日本機快照，可在 App 內還原；Pro 版本另支援匯出為 JSON 與 CSV。若要在裝置遺失或損壞後仍能找回，請依賴系統備份（iCloud 備份或電腦備份），因為其中包含 App 的本機資料。把 CSV 匯出檔另存在裝置之外，是最穩妥的做法。</p>
+    <h3>3. 我重新安裝了 App 或換了手機，如何取回 Pro 與資料？</h3>
+    <p>Pro 綁定的是你的 Apple ID：用購買時的相同 Apple ID 點一下「<strong>回復購買</strong>」即可。回復購買只會解鎖功能，不會帶回你的紀錄——紀錄需要透過將系統備份還原到本機，或匯入先前匯出的 JSON／CSV 檔案來取回。</p>
+    <h3>4. 如何取消自動續訂？</h3>
+    <ol><li>打開 iPhone 或 iPad 的「<strong>設定</strong>」。</li><li>點一下最上方的你的名字。</li><li>點一下「<strong>訂閱</strong>」。</li><li>選擇小管家，點一下「<strong>取消訂閱</strong>」。</li></ol><p class="muted">取消後仍可使用 Pro 至目前付費週期結束。僅刪除 App 不會取消訂閱，也不會停止扣款。</p>
+    <h3>5. 如何申請退款？</h3>
+    <p>付款由 Apple 處理，退款也由 Apple 決定，我們無法直接辦理。請前往 <a href="https://reportaproblem.apple.com/">reportaproblem.apple.com</a>，用購買時的 Apple ID 登入後提出申請。</p>
+    <h3>6. 我誤刪了一筆紀錄，還能找回嗎？</h3>
+    <p>刪除的紀錄會進入資源回收筒並保留 30 天，之後將被永久清除。若仍在 30 天內，可在回收筒中還原。而「清除所有資料」會立即生效，無法復原。</p>
+    <h3>7. 我拒絕了某項權限，如何重新開啟？</h3>
+    <p>iOS 只會詢問一次，因此一旦點了「不允許」，就需要到「<strong>設定 &gt; 小管家</strong>」手動開啟。麥克風與語音辨識用於語音記帳，相機與相簿用於掃描收據，通知用於預算與帳單提醒。每項權限只影響對應功能，其餘部分不受影響。</p>
+    <h3>8. 收不到帳單與預算提醒。</h3>
+    <p>提醒是在裝置上排定的本機通知，不依賴伺服器推送。若沒有收到，請檢查：「<strong>設定 &gt; 小管家 &gt; 通知</strong>」中是否已允許通知；是否開啟了「專注模式」或「勿擾模式」；裝置的日期與時間是否正確；以及該帳單是否確實設定了到期日。</p>
+    <h3>9. 掃描的收據或合計金額不正確。</h3>
+    <p>收據掃描在裝置本機完成，遇到褪色字跡、非典型排版或手寫金額時可能辨識錯誤。儲存前請務必核對掃描結果。統計數字也是同樣的道理：它們只和你輸入的紀錄一樣準確，因此在依據其做財務、稅務或經營決定之前，請先自行核實。</p>
+  </div>
+
+  <div class="card">
+    <h2>寄信前請準備</h2>
+    <p>附上以下資訊，能幫我們一次就把問題定位清楚：</p>
+    <ul>
+      <li>小管家版本號</li>
+      <li>iOS 版本（設定 &gt; 一般 &gt; 關於本機）</li>
+      <li>裝置型號</li>
+      <li>你的操作步驟與預期結果</li>
+      <li>錯誤提示或異常畫面的截圖</li>
+    </ul>
+    <p class="muted">寄送截圖前，請先裁切或遮蔽金額、帳號等財務與個人資訊。</p>
+  </div>
+
+  <div class="card">
+    <h2>相關連結</h2>
+    <ul>
+      <li><a href="privacy-policy.html">隱私政策</a></li>
+      <li><a href="terms-of-service.html">服務條款</a></li>
+    </ul>
+    <p class="muted">其他語言: <a href="../en/support.html">English</a> · <a href="../zh-Hans/support.html">简体中文</a> · <strong>繁體中文</strong> · <a href="../ja/support.html">日本語</a> · <a href="../ko/support.html">한국어</a> · <a href="../de/support.html">Deutsch</a> · <a href="../fr/support.html">Français</a></p>
+  </div>
+
+  <div class="date">© 2026 小管家 · 最後更新：2026 年 11 月 5 日</div>
+</div>
+</body>
+</html>

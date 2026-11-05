@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Intendant — Assistance</title>
+<style>
+  :root { --accent: #2ECC8F; --text: #1a1f24; --muted: #5b6570; --line: #e6e9ec; --bg: #ffffff; }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans", "Noto Sans", sans-serif; color: var(--text); background: #f5f6f8; line-height: 1.75; font-size: 16px; }
+  header { text-align: center; padding: 40px 20px 28px; background: var(--bg); border-bottom: 1px solid var(--line); }
+  header h1 { margin: 0; font-size: 24px; font-weight: 700; }
+  header .sub { color: var(--muted); margin-top: 8px; font-size: 14px; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 20px 16px 64px; }
+  .card { background: var(--bg); border: 1px solid var(--line); border-radius: 14px; padding: 24px 22px; margin-top: 18px; }
+  .card h2 { font-size: 18px; margin: 0 0 12px; color: var(--accent); }
+  .card h3 { font-size: 15.5px; margin: 18px 0 6px; }
+  .card p, .card li { margin: 8px 0; }
+  ul, ol { padding-left: 22px; margin: 8px 0; }
+  .muted { color: var(--muted); }
+  .date { text-align: center; color: var(--muted); font-size: 13px; margin-top: 32px; }
+  a { color: var(--accent); }
+  strong { font-weight: 600; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Intendant — Assistance</h1>
+  <div class="sub">Dernière mise à jour : 5 novembre 2026</div>
+</header>
+
+<div class="wrap">
+
+  <div class="card">
+    <h2>Nous contacter</h2>
+    <p>Merci d'utiliser Intendant. Les questions les plus courantes sont ci-dessous. Si la vôtre n'y figure pas, écrivez-nous — nous lisons chaque message.</p>
+    <p><strong>E-mail:</strong> <a href="mailto:selfiearts@163.com?subject=Steward%20Support">selfiearts@163.com</a></p>
+    <p class="muted">Nous répondons généralement sous 1 à 3 jours ouvrés. Intendant est développée par un développeur indépendant ; nous n'offrons pas d'assistance téléphonique ni de chat en direct.</p>
+  </div>
+
+  <div class="card">
+    <h2>Questions fréquentes</h2>
+    <h3>1. Où sont stockées mes données ? Sont-elles synchronisées entre appareils ?</h3>
+    <p>Factures, budgets, comptes et tous les autres enregistrements que vous saisissez sont stockés uniquement sur cet appareil, dans la base de données locale de l'application. Intendant n'a ni compte ni serveur : vos données ne quittent pas l'appareil lors d'un usage normal et ne nous sont pas transmises. Elles n'apparaissent donc pas automatiquement sur un autre appareil. Si la sauvegarde iCloud est activée, les fichiers de l'application peuvent figurer dans cette sauvegarde système — celle-ci est créée et gérée par iOS, pas par nous.</p>
+    <h3>2. Comment sauvegarder mes données ?</h3>
+    <p>Intendant conserve jusqu'à sept instantanés locaux quotidiens, restaurables depuis l'application, et Pro ajoute l'export en JSON et CSV. Pour une copie qui survive à la perte ou à la panne de l'appareil, utilisez la sauvegarde système (sauvegarde iCloud ou sur ordinateur), car elle contient les données locales de l'application. Le plus sûr reste de conserver un export CSV en dehors de l'appareil.</p>
+    <h3>3. J'ai réinstallé l'app ou changé d'appareil : comment récupérer Pro et mes données ?</h3>
+    <p>Pro est lié à votre identifiant Apple : touchez <strong>Restaurer les achats</strong> avec le même identifiant que lors de l'achat. La restauration débloque les fonctionnalités mais ne ramène pas vos enregistrements — ceux-ci proviennent de la restauration de la sauvegarde système sur cet appareil, ou de l'import d'un export JSON/CSV réalisé auparavant.</p>
+    <h3>4. Comment annuler l'abonnement à renouvellement automatique ?</h3>
+    <ol><li>Ouvrez <strong>Réglages</strong> sur votre iPhone ou iPad.</li><li>Touchez votre nom en haut.</li><li>Touchez <strong>Abonnements</strong>.</li><li>Sélectionnez Intendant, puis touchez <strong>Résilier l'abonnement</strong>.</li></ol><p class="muted">Vous conservez Pro jusqu'à la fin de la période payée. Supprimer l'application n'annule pas l'abonnement et n'arrête pas la facturation.</p>
+    <h3>5. Comment demander un remboursement ?</h3>
+    <p>Les paiements sont traités par Apple et la décision de remboursement lui revient, pas à nous. Rendez-vous sur <a href="https://reportaproblem.apple.com/">reportaproblem.apple.com</a>, connectez-vous avec l'identifiant Apple utilisé pour l'achat et déposez la demande.</p>
+    <h3>6. J'ai supprimé un enregistrement par erreur. Puis-je le récupérer ?</h3>
+    <p>Les enregistrements supprimés vont dans la corbeille et y restent 30 jours, puis sont définitivement effacés. Dans ce délai, vous pouvez les restaurer depuis la corbeille. En revanche, l'effacement de toutes les données est immédiat et irréversible.</p>
+    <h3>7. J'ai refusé une autorisation. Comment la réactiver ?</h3>
+    <p>iOS ne demande qu'une fois : après « Ne pas autoriser », il faut activer l'autorisation dans <strong>Réglages &gt; Intendant</strong>. Le micro et la reconnaissance vocale servent à la saisie vocale, l'appareil photo et les photos au scan des justificatifs, les notifications aux rappels de budget et de factures. Chaque autorisation ne concerne que sa fonction.</p>
+    <h3>8. Les rappels de budget et de factures n'arrivent pas.</h3>
+    <p>Les rappels sont des notifications locales programmées sur votre appareil ; il n'y a pas d'envoi depuis un serveur. S'ils n'apparaissent pas, vérifiez que les notifications sont autorisées dans <strong>Réglages &gt; Intendant &gt; Notifications</strong>, que Ne pas déranger ou un mode de concentration ne coupe pas l'application, que la date et l'heure de l'appareil sont correctes et qu'une date d'échéance est bien définie sur la facture.</p>
+    <h3>9. Un justificatif scanné ou un total est faux.</h3>
+    <p>Le scan s'effectue sur l'appareil et peut mal lire une impression pâle, une mise en page inhabituelle ou un montant manuscrit. Vérifiez toujours un enregistrement scanné avant de l'enregistrer. Il en va de même des statistiques : elles ne sont pas plus exactes que les enregistrements qui les alimentent. Vérifiez vos chiffres avant de fonder dessus une décision financière, fiscale ou commerciale.</p>
+  </div>
+
+  <div class="card">
+    <h2>Avant de nous écrire</h2>
+    <p>Ces informations nous permettent de résoudre le problème en un seul échange :</p>
+    <ul>
+      <li>version d'Intendant</li>
+      <li>version d'iOS (Réglages &gt; Général &gt; Informations)</li>
+      <li>modèle de l'appareil</li>
+      <li>ce que vous avez fait et ce que vous attendiez</li>
+      <li>capture de l'erreur ou du résultat incorrect</li>
+    </ul>
+    <p class="muted">Avant d'envoyer une capture, coupez ou masquez les montants, numéros de compte et autres informations personnelles.</p>
+  </div>
+
+  <div class="card">
+    <h2>Liens utiles</h2>
+    <ul>
+      <li><a href="privacy-policy.html">Politique de confidentialité</a></li>
+      <li><a href="terms-of-service.html">Conditions d'utilisation</a></li>
+    </ul>
+    <p class="muted">Autres langues: <a href="../en/support.html">English</a> · <a href="../zh-Hans/support.html">简体中文</a> · <a href="../zh-Hant/support.html">繁體中文</a> · <a href="../ja/support.html">日本語</a> · <a href="../ko/support.html">한국어</a> · <a href="../de/support.html">Deutsch</a> · <strong>Français</strong></p>
+  </div>
+
+  <div class="date">© 2026 Intendant · Dernière mise à jour : 5 novembre 2026</div>
+</div>
+</body>
+</html>

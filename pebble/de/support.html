@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Verwalter — Support</title>
+<style>
+  :root { --accent: #2ECC8F; --text: #1a1f24; --muted: #5b6570; --line: #e6e9ec; --bg: #ffffff; }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans", "Noto Sans", sans-serif; color: var(--text); background: #f5f6f8; line-height: 1.75; font-size: 16px; }
+  header { text-align: center; padding: 40px 20px 28px; background: var(--bg); border-bottom: 1px solid var(--line); }
+  header h1 { margin: 0; font-size: 24px; font-weight: 700; }
+  header .sub { color: var(--muted); margin-top: 8px; font-size: 14px; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 20px 16px 64px; }
+  .card { background: var(--bg); border: 1px solid var(--line); border-radius: 14px; padding: 24px 22px; margin-top: 18px; }
+  .card h2 { font-size: 18px; margin: 0 0 12px; color: var(--accent); }
+  .card h3 { font-size: 15.5px; margin: 18px 0 6px; }
+  .card p, .card li { margin: 8px 0; }
+  ul, ol { padding-left: 22px; margin: 8px 0; }
+  .muted { color: var(--muted); }
+  .date { text-align: center; color: var(--muted); font-size: 13px; margin-top: 32px; }
+  a { color: var(--accent); }
+  strong { font-weight: 600; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Verwalter — Support</h1>
+  <div class="sub">Zuletzt aktualisiert: 5. November 2026</div>
+</header>
+
+<div class="wrap">
+
+  <div class="card">
+    <h2>Kontakt</h2>
+    <p>Danke, dass du Verwalter nutzt. Die häufigsten Fragen sind unten beantwortet. Wenn deine nicht dabei ist, schreib uns – wir lesen jede Nachricht.</p>
+    <p><strong>E-Mail:</strong> <a href="mailto:selfiearts@163.com?subject=Steward%20Support">selfiearts@163.com</a></p>
+    <p class="muted">Wir antworten in der Regel innerhalb von 1–3 Werktagen. Verwalter wird von einem unabhängigen Entwickler entwickelt; Support per Telefon oder Live-Chat bieten wir nicht an.</p>
+  </div>
+
+  <div class="card">
+    <h2>Häufige Fragen</h2>
+    <h3>1. Wo werden meine Daten gespeichert? Werden sie zwischen Geräten synchronisiert?</h3>
+    <p>Rechnungen, Budgets, Konten und alle anderen Einträge werden ausschließlich lokal in der Datenbank der App auf diesem Gerät gespeichert. Verwalter hat kein Konto und keinen Server; bei normaler Nutzung verlassen deine Daten das Gerät nicht und werden nicht an uns übermittelt. Deshalb erscheinen sie auch nicht automatisch auf einem anderen Gerät. Ist iCloud-Backup aktiviert, können die Dateien der App in dieser Systemsicherung enthalten sein – diese Sicherung erstellt und verwaltet iOS, nicht wir.</p>
+    <h3>2. Wie sichere ich meine Daten?</h3>
+    <p>Verwalter hält bis zu sieben tägliche lokale Schnappschüsse bereit, die du in der App wiederherstellen kannst; Pro ergänzt den Export als JSON und CSV. Für eine Kopie, die ein verlorenes oder defektes Gerät übersteht, nutze deine Systemsicherung (iCloud-Backup oder Computer-Backup), da sie die lokalen Daten der App enthält. Am sichersten ist ein CSV-Export, den du außerhalb des Geräts aufbewahrst.</p>
+    <h3>3. Ich habe die App neu installiert oder das Gerät gewechselt – wie bekomme ich Pro und meine Daten zurück?</h3>
+    <p>Pro ist an deine Apple-ID gebunden: Tippe auf <strong>Käufe wiederherstellen</strong>, mit derselben Apple-ID, mit der du gekauft hast. Das Wiederherstellen schaltet nur die Funktionen frei und bringt keine Einträge zurück – die kommen aus der Wiederherstellung der Systemsicherung auf dieses Gerät oder aus einem zuvor exportierten JSON/CSV-Import.</p>
+    <h3>4. Wie kündige ich das automatisch verlängernde Abo?</h3>
+    <ol><li>Öffne die <strong>Einstellungen</strong> auf deinem iPhone oder iPad.</li><li>Tippe oben auf deinen Namen.</li><li>Tippe auf <strong>Abonnements</strong>.</li><li>Wähle Verwalter und tippe auf <strong>Abo kündigen</strong>.</li></ol><p class="muted">Pro bleibt bis zum Ende des bezahlten Zeitraums aktiv. Das Löschen der App kündigt das Abo nicht und stoppt die Abrechnung nicht.</p>
+    <h3>5. Wie beantrage ich eine Rückerstattung?</h3>
+    <p>Zahlungen werden von Apple abgewickelt, und über Rückerstattungen entscheidet Apple, nicht wir. Geh auf <a href="https://reportaproblem.apple.com/">reportaproblem.apple.com</a>, melde dich mit der beim Kauf verwendeten Apple-ID an und stelle den Antrag dort.</p>
+    <h3>6. Ich habe versehentlich einen Eintrag gelöscht. Kann ich ihn zurückholen?</h3>
+    <p>Gelöschte Einträge landen im Papierkorb und bleiben 30 Tage erhalten, danach werden sie endgültig gelöscht. Innerhalb dieses Zeitraums kannst du sie von dort wiederherstellen. „Alle Daten löschen“ dagegen wirkt sofort und lässt sich nicht rückgängig machen.</p>
+    <h3>7. Ich habe eine Berechtigung abgelehnt. Wie aktiviere ich sie wieder?</h3>
+    <p>iOS fragt nur einmal – nach „Nicht erlauben“ muss die Berechtigung in <strong>Einstellungen &gt; Verwalter</strong> aktiviert werden. Mikrofon und Spracherkennung dienen der Spracheingabe, Kamera und Fotos dem Einscannen von Belegen, Mitteilungen den Budget- und Rechnungserinnerungen. Jede Berechtigung betrifft nur ihre Funktion.</p>
+    <h3>8. Budget- und Rechnungserinnerungen kommen nicht an.</h3>
+    <p>Erinnerungen sind lokale Mitteilungen, die auf dem Gerät geplant werden; es gibt keinen Server-Push. Wenn nichts ankommt, prüfe, ob Mitteilungen unter <strong>Einstellungen &gt; Verwalter &gt; Mitteilungen</strong> erlaubt sind, ob „Nicht stören“ oder ein Fokusmodus die App stillschaltet, ob Datum und Uhrzeit stimmen und ob bei der Rechnung überhaupt ein Fälligkeitsdatum gesetzt ist.</p>
+    <h3>9. Ein gescannter Beleg oder eine Summe stimmt nicht.</h3>
+    <p>Das Scannen läuft auf dem Gerät und kann verblassten Druck, ungewöhnliche Layouts oder handschriftliche Summen falsch lesen. Prüfe einen gescannten Eintrag immer vor dem Speichern. Für Auswertungen gilt dasselbe: Sie sind nur so genau wie die Einträge dahinter – prüfe deine Zahlen, bevor du darauf finanzielle, steuerliche oder geschäftliche Entscheidungen stützt.</p>
+  </div>
+
+  <div class="card">
+    <h2>Bevor du uns schreibst</h2>
+    <p>Mit diesen Angaben lösen wir das Problem meist in einem Durchgang:</p>
+    <ul>
+      <li>Verwalter-Version</li>
+      <li>iOS-Version (Einstellungen &gt; Allgemein &gt; Info)</li>
+      <li>Gerätemodell</li>
+      <li>was du getan hast und was du erwartet hast</li>
+      <li>Screenshot der Fehlermeldung oder des falschen Ergebnisses</li>
+    </ul>
+    <p class="muted">Bitte schneide vor dem Senden finanzielle Angaben, Kontonummern und andere persönliche Informationen aus oder verdecke sie.</p>
+  </div>
+
+  <div class="card">
+    <h2>Weiterführende Links</h2>
+    <ul>
+      <li><a href="privacy-policy.html">Datenschutzerklärung</a></li>
+      <li><a href="terms-of-service.html">Nutzungsbedingungen</a></li>
+    </ul>
+    <p class="muted">Andere Sprachen: <a href="../en/support.html">English</a> · <a href="../zh-Hans/support.html">简体中文</a> · <a href="../zh-Hant/support.html">繁體中文</a> · <a href="../ja/support.html">日本語</a> · <a href="../ko/support.html">한국어</a> · <strong>Deutsch</strong> · <a href="../fr/support.html">Français</a></p>
+  </div>
+
+  <div class="date">© 2026 Verwalter · Zuletzt aktualisiert: 5. November 2026</div>
+</div>
+</body>
+</html>
